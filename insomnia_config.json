@@ -1,0 +1,226 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-08-03T15:45:04.831Z",
+    "__export_source": "insomnia.desktop.app:v2021.2.0",
+    "resources": [
+        {
+            "_id": "req_ed8c81a9821a4bd38759788e967f706a",
+            "parentId": "fld_4839b47bea764b1884839cb6bf7124a9",
+            "modified": 1627991143329,
+            "created": 1627988427429,
+            "url": "http://localhost:3000/contact",
+            "name": "delete Contact",
+            "description": "",
+            "method": "DELETE",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id\":4\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_a38c9cea95054c779fd58c355ae4d666"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1627988427429,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_4839b47bea764b1884839cb6bf7124a9",
+            "parentId": "wrk_898dde89dc8348ce9d313d1ff9a06dec",
+            "modified": 1627929256639,
+            "created": 1627721440888,
+            "name": "CONTACTS",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1627721440889,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_898dde89dc8348ce9d313d1ff9a06dec",
+            "parentId": null,
+            "modified": 1627721427397,
+            "created": 1627721427397,
+            "name": "CSP_Challenge",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_c894f7f4a32144c8aa19bf9fb8780505",
+            "parentId": "fld_4839b47bea764b1884839cb6bf7124a9",
+            "modified": 1627987550459,
+            "created": 1627987224924,
+            "url": "http://localhost:3000/contact",
+            "name": "update Contact",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id\": 12,\n\t\"name\":\"Fabricio\",\n\t\"family_name\":\"Moreira\",\n\t\"email\": \"fabricio.moreira@csp.com.br\",\n\t\"contact\": \"21 24715584\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_8e5d2df09fab4dbbadabc100b7c88e45"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1627987224925,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_1e83672aa82140a99ac7af6d4d0d72fd",
+            "parentId": "fld_4839b47bea764b1884839cb6bf7124a9",
+            "modified": 1628005032077,
+            "created": 1627950907065,
+            "url": "http://localhost:3000/contact",
+            "name": "create Contact",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\":\"Andreia\",\n\t\"family_name\":\"Fernandes\",\n\t\"email\": \"andreia.fernandes@csp.com.br\",\n\t\"contact\": \"11 999654025\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_a91cfe22b7b147dcb0adef958a9cc665"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1627950907065,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_cb1d54338d94485ebe34e915bbcf539e",
+            "parentId": "fld_4839b47bea764b1884839cb6bf7124a9",
+            "modified": 1628001414991,
+            "created": 1627929271592,
+            "url": "http://localhost:3000/contact",
+            "name": "get Contact",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [
+                {
+                    "name": "name",
+                    "value": "Pablo",
+                    "description": "",
+                    "id": "pair_524d61bc674a4549ba78b6d954e0e5e1",
+                    "disabled": false
+                },
+                {
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "id": "pair_ff42582a85964d8c8c62c2da0a414c5c",
+                    "disabled": true
+                },
+                {
+                    "name": "email",
+                    "value": "pablo.alonso@csp.com.br",
+                    "description": "",
+                    "id": "pair_4aae4bcd8b6e46eaa01fc0961f20e146",
+                    "disabled": true
+                }
+            ],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1627929271592,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_9ec84b59e69a4422aa1c582adf584f49",
+            "parentId": "fld_4839b47bea764b1884839cb6bf7124a9",
+            "modified": 1627929233608,
+            "created": 1627721452333,
+            "url": "http://localhost:3000/contacts",
+            "name": "get All Contacts",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1627721452333,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": false,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_850e9a42bad12db831d5b1e9baf8f57bc82bedad",
+            "parentId": "wrk_898dde89dc8348ce9d313d1ff9a06dec",
+            "modified": 1627721427750,
+            "created": 1627721427750,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1627721427750,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_850e9a42bad12db831d5b1e9baf8f57bc82bedad",
+            "parentId": "wrk_898dde89dc8348ce9d313d1ff9a06dec",
+            "modified": 1627721427758,
+            "created": 1627721427758,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_1915a12e42f84e08b99a801e1180cc63",
+            "parentId": "wrk_898dde89dc8348ce9d313d1ff9a06dec",
+            "modified": 1627721427413,
+            "created": 1627721427413,
+            "fileName": "CSP_Challenge",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}

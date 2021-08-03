@@ -1,0 +1,66 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "fullName": "Pablo Moreira",
+        "name": "Pablo",
+        "familyName": "Moreira",
+        "email": "pablo.moreira@csp.com.br",
+        "contacts": [
+          "21 981014689",
+          "21 33728899"
+        ]
+      },
+      {
+        "id": 2,
+        "fullName": "Mauro Fonseca",
+        "name": "Mauro",
+        "familyName": "Fonseca",
+        "email": "mauro.fonseca@csp.com.br",
+        "contacts": [
+          "21 33714688",
+          "21 999378668"
+        ]
+      },
+      {
+        "id": 3,
+        "fullName": "Roberto Junior",
+        "name": "Roberto",
+        "familyName": "Junior",
+        "email": "roberto.junior@csp.com.br",
+        "contacts": [
+          "21 999880908"
+        ]
+      },
+      {
+        "id": 5,
+        "fullName": "Jessica Costa",
+        "name": "Jessica",
+        "familyName": "Costa",
+        "email": "jessica.costa@csp.com.br",
+        "contacts": [
+          "21 999378888"
+        ]
+      },
+      {
+        "id": 6,
+        "fullName": "Joao Otavio",
+        "name": "Joao",
+        "familyName": "Otavio",
+        "email": "joao.otavio@csp.com.br",
+        "contacts": [
+          "21 998978888"
+        ]
+      },
+      {
+        "id": 11,
+        "fullName": "Sergio Aquino",
+        "name": "Sergio",
+        "familyName": "Aquino",
+        "email": "sergio.aquino@csp.com.br",
+        "contacts": [
+          "21 998526654"
+        ]
+      }
+    ]
+  }

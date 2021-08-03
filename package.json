@@ -1,0 +1,34 @@
+{
+  "name": "csp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/server.js",
+    "start": " node api/server.js",
+    "test": "nyc --reporter=text mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "expect": "^27.0.6",
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "mocha": "^9.0.3",
+    "mysql": "^2.18.1",
+    "mysql-import": "^5.0.21",
+    "node-mocks-http": "^1.10.1",
+    "ramda": "^0.27.1",
+    "rewire": "^5.0.0",
+    "sequelize-mock": "^0.10.2",
+    "sinon": "^11.1.2"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "nodemon": "^2.0.12",
+    "nyc": "^15.1.0"
+  }
+}
